@@ -1,0 +1,4 @@
+# Ignore pyaches
+__pycache__
+# Ignore .swp filetypes
+*.swp

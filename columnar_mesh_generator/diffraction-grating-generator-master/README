@@ -1,0 +1,47 @@
+README
+This tool generates 2D grids.
+
+INSTRUCTIONS:
+
+To Build:
+    Ubuntu:
+    > ./setup_ubuntu.sh
+
+    Arch:
+    > ./setup_arch.sh
+
+    Otherwise:
+    - Pull repository: https://github.com/mseryn/stl_tools.git
+    - From stl_tools/, move stl_tools/stl_tools/ to diffraction_grating_generator/
+
+To Run:
+> ./make_grating.sh
+
+Manual run:
+> ./src/difraction_grating_generator <Number of Rows> <Number of Columns> <Slit Pitch> <Slit Length>
+
+NOTES:
+- Output files have relative dimensions - no units are implicit
+
+
+
+AUTHOR:
+Melanie Cornelius (nee Dooley)
+Built for the Illinois Institute of Technology Interprofessional Project:
+Developing an Antimatter Gravity Interferometer
+
+CURRENT OUTPUT FORMATS:
+.stl
+
+FUTURE OUTPUT FORMATS:
+L-Edit cells
+
+CURRENT GEOMETRIES:
+Columnar grid
+
+FUTURE GEOMETRIES:
+Psudo-random
+Ashlar
+
+This code is protected under the GNU GPL V3.0 License.
+Please distribute with appropriate credit and with this license.

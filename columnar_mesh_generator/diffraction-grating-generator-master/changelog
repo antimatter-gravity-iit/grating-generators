@@ -1,0 +1,8 @@
+V 1.0: Planned changes include:
+-- Change to OO design
+-- -- Make a centralized command line prompt
+-- -- Build classes for geometries and output file types
+-- -- ** Ensure dependency separation between classes **
+-- Make a build script - include MODIFIED stl_tools repository in build
+-- -- Possibly include build scripts for various OS types, but in the
+      beginning, require Ubuntu 14.04
